@@ -70,7 +70,7 @@ void KFParticleTopoReconstructor::Init(AliHLTTPCCAGBTracker* tracker, vector<int
   fTracks[6].Resize(0);
   fTracks[7].Resize(0);
   
-  XXXXX
+  std::cout<<"DEBUG! git"<<std::endl;
     
 #ifdef USE_TIMERS
   timer.Start();
