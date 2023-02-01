@@ -70,6 +70,8 @@ void KFParticleTopoReconstructor::Init(AliHLTTPCCAGBTracker* tracker, vector<int
   fTracks[6].Resize(0);
   fTracks[7].Resize(0);
   
+  XXXXX
+    
 #ifdef USE_TIMERS
   timer.Start();
 #endif // USE_TIMERS
